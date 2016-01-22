@@ -283,7 +283,7 @@ a{text-decoration: none;}
 	width: 150px;height: 55px;}
 .navget span{display: none;}
 /*导航下拉*/
-#clcourse{position: relative;*top:2px;_top:18px;width: 78px;}
+#clcourse{position: relative;*top:2px;width: 78px;}
 #clcourse a{font-size: 18px;color:#fefeff;}
 #clcourse a:hover{*color: #fff;}
 .clcoursefontsty{color: #6e529f;}
@@ -460,7 +460,7 @@ line-height: 64px;}
 .lstop img{float: left;margin-right: 20px;width: 180px;}
 .lstop h4{line-height: 36px;}
 .lstop p{text-indent: 2em;}
-.sharer_ul{width: 90%;margin-left: 40px;float: left;padding-top: 28px;}
+.sharer_ul{width: 90%;margin-left: 40px;*margin-left:20px;float: left;padding-top: 28px;}
 .sharer_ul li{line-height: 30px;list-style-type: disc; font-size: 16px;color: #737373;}
 .sharer_ul li a{color: #737373;}
 .sharer_ul li span{float: right;}
@@ -469,7 +469,7 @@ line-height: 64px;}
 .sharebt{margin-top: -50px;float: left;width: 100%;}
 
 /*校区tab样式*/
-.schoolarea{background: #ededed;padding-top: 32px;}
+.schoolarea{background: #ededed;padding-top: 32px;*float: left;_padding-left:160px; }
 .scarea{border-bottom:medium solid gray;float: left;width: 150%;padding-top: 25px;margin-left: -200px;
   padding-left: 200px;}
 .idTabs{float: left;}
@@ -478,7 +478,7 @@ line-height: 64px;}
 .scarea ul li{margin-right: 15px;}
 .idTabs li a{color: #000;padding: 4px 12px 4px 12px;display: block;}
 .idTabs .selected{background: #cfcfcf;}
-.subarea{float: left;width: 95%;margin-top: 12px;margin-bottom:10px;min-height: 250px;position: relative;}
+.subarea{float: left;width: 95%;margin-top: 12px;margin-bottom:10px;min-height: 250px;*height:250px;position: relative;}
 .subarea ul li {float: left;font-size: 14px;}
 .subarea ul li a{display: block;padding-left: 10px;padding-right: 10px;}
 .subarea ul li a:hover{background:#6e529f;color: #fff;}
@@ -504,7 +504,7 @@ background: url(../images/school_maopao.png) top left no-repeat;}
 .btnavr ul li{float: left;width: 110px;padding-bottom: 9px;}
 .btnavr ul li span{text-align: center;color: #fff;}
 .btnavr ul li img{display: block;float: left;}
-.btnavr p{font-size: 16px;color: #fff799;line-height: 2em;}
+.btnavr p{font-size: 16px;color: #fff799;line-height: 2em;width: 230px;}
 .kefu,.copyright{float: left;width: 100%;margin-top: 30px;}
 .kefu{padding-left: 75px;background: url(../images/calling_bth.png) top left no-repeat;height:68px;}
 .kefu a{color: #828081;}
