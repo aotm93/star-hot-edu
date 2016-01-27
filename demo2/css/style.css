@@ -1,0 +1,109 @@
+/*
+*教育机构样式 2014-12-23
+*/
+
+/*全局*/
+*{margin: 0;padding:0;}
+body{
+	font: 14px/18pt "微软雅黑" normal ;
+	background: #fff;
+
+}
+li{list-style: none;}
+a{color: #fff;text-decoration: none;}
+a:hover{text-decoration: none;}
+
+.clearfix:before{
+content: "";
+clear: both;
+}
+img{margin: 0;padding: 0;border: 0;}
+.wrap{
+	margin: 0 auto;
+	width: 980px;
+}
+/*头部内容*/
+.header{margin: 0 auto;
+	width: 980px;}
+.logo{
+	float: left;width: 104px;padding-top: 30px;
+}
+.header p{float: right;line-height: 50px;color: #9b9b9b;font-family: "宋体";font-size: 12px;}
+.nav{float: right;width: 1120px;height:40px;margin-right: -300px;background: #1f80bf;color: #fff;}
+.nav ul{float: left;}
+.nav ul li{float: left;padding-left: 25px;padding-right: 25px;line-height: 40px; }
+.nav ul li:nth-child(2){border-right: 1px solid #666;}
+.nav ul li:nth-child(3){border-right: 1px solid #666;}
+.nav form{float: left;margin: 10px 0;position: relative;}
+.input{border: 1px solid #666;
+	border-radius: 10px;
+    float: left;border-left: 10px;width: 155px;height: 18px;}
+.input input{border: 0;margin: 0;padding: 2px;outline: none;border: 1px solid #666;border-radius: 10px;
+    float: left;border-left: 10px;width: 155px;height: 18px;}
+.nav form button{font-size: 0px;background: url(../images/search_bth.png) top right no-repeat;
+	width: 20px;height: 16px;position: absolute;top: 6px;right: 0;outline: none;border: none;}
+.regis{float: left;margin-left: 90px;}
+.regis span{float: left;padding: 10px 5px;}
+.home{width: 94px;height: 42px;margin-left:-25px;margin-right: -25px;
+}
+
+/*video成为会员*/
+.hvideo{background: #2f75ab;}
+.vcontent{position: relative;-moz-box-shadow: 2px 2px 5px #888888; /* 老的 Firefox */
+box-shadow: 2px 2px 5px #888888;max-height: 350px;overflow: hidden;}
+.vcontent img{width: 100%;height: 100%;}
+.clckplay{position: absolute;top: 40%;left: 40%;width: 115px;height: 115px;}
+.vtext{position: absolute;top: 0;right: 0;width: 340px;height: 340px;padding-top:10px;
+	background: rgba(135,140,124,0.4);text-align: center;color: #fff;text-indent: 2em;}
+.vtext h3{font-size: 24px;line-height: 2.4em;}
+.vtext p{width: 92%;padding: 0px 10px 20px 10px;}
+.vtext button{border: 1 solid #e67922;width: 195px;height:40px;border-radius: 20px;background: #ff9600;
+margin: 10px auto; background: -webkit-linear-gradient(#ffa000, #ff7000); /* Safari 5.1 - 6.0 */
+  background: -moz-linear-gradient(#ffa000, #ff7000); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#ffa000, #ff7000); /* 标准的语法 */ }
+
+/*会员权益*/
+.vip h4{font-size: 20px;line-height: 3em;color: #000;}
+#vipul{width:1130px;margin-left: -25px;margin-right: -25px;}
+#vipul li{width: 275px;padding-right:35px;height: 135px;float: left;margin:5px 0px 10px 25px;
+	*margin-left: 22px;border-radius: 9px;}
+#vipul li img{width: 70px;margin-top: 32px;margin-left:30px;float: left;}
+#vipul li span{float: right;text-align: center;width: 150px;font-size: 18px;line-height: 2em;padding-top: 30px;}
+#vipul li p{float: right;width: 150px;line-height: 1.8em;font-size: 12px;}
+
+/*我们的课程*/
+.ourclass h3{font-size: 20px; width: 120px; height: 40px;background: #6e3c36;border-radius: 3px;text-align: center;
+line-height: 40px;color: #fff;}
+.classl{width: 480px;padding:18px 55px 40px 0px;float: left;}
+.classl ul li{float: left;width: 92px;margin-right: 22px;}
+.classl ul li span{color: #000;text-align: center;display: block;}
+.classr{padding-top: 65px;padding-right: 20px;}
+.classr h4{font-size: 18px;text-align: center;}
+.classr p{text-indent: 2em;}
+
+/*最新课程*/
+.newclass h3{font-size: 20px; width: 120px; height: 40px;background: #b68206;border-radius: 3px;text-align: center;
+line-height: 40px;color: #fff;}
+.nclass ul li{float: left;margin: 15px;width: 210px;}
+.nclass ul li span{width: 210px;text-align:center;display: block;color: #000;}
+.sptime{color: #c1c1c1;}
+.findclass{text-align: center;margin: 25px 0 35px 0;}
+.findclass p{color: #1f80bf;font-size: 23.6px;width: 100%;}
+.findclass span{width: 265px;height: 52px;border-radius: 26px;margin: 10px auto; background: -webkit-linear-gradient(#ffa000, #ff7000); /* Safari 5.1 - 6.0 */
+  background: -moz-linear-gradient(#ffa000, #ff7000); /* Firefox 3.6 - 15 */
+  background: linear-gradient(#ffa000, #ff7000); /* 标准的语法 */ 
+  display: block;line-height: 52px;color: #fff;font-size: 20px;}
+
+/*底部*/
+.footer{background: #1f80bf;}
+.footco{background: url(../images/bottom_bg.png) top left no-repeat;position: relative;color: #fff;}
+.footco img{padding-bottom: 60px;padding-top: 50px;}
+.fcontentxt{width: 450px;left: 260px;position: absolute;top: 60px;}
+.fcontentxt ul{width: 290px;float: left;margin-left: 92px;}
+.fcontentxt ul li{float: left;line-height: 2em;font-size: 12px;}
+.fcontentxt p{width: 450px;float: left;font-size: 12px;}
+.wechat{float: right;width: 86px;position: absolute;top: 10px;right: 0px;}
+.wechat img{margin: 40px 0px 0px 0px;padding: 0;}
+.wechat span{width: 86px;}
+
+
